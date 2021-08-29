@@ -113,6 +113,9 @@
 }
 
 /* Success */
+.success {
+   display: none;
+}
 .success .container {
   position: absolute;
   width: 375px;
