@@ -4,72 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forgot Password</title>
+    <title>Reset Password</title>
     <link rel="stylesheet" href="assets/css/forgot.css" />
   </head>
   <body>
     <div class="main">
       <div class="content">
-        <!-- Top Heading  -->
+        <!-- Top Heading -->
         <div class="top-bar">
           <img src="assets/SVG/backl-arrow.svg" alt="" class="back-arrow" />
           <span class="heading">Reset Password</span>
         </div>
-        <!-- Middle Content -->
+
         <div class="middle">
-          <img src="assets/SVG/reset.svg" alt="" class="reset-svg" />
-          <span class="input-heading">Create a new password</span>
+          <img src="assets/SVG/forgot.svg" alt="" class="forgot-svg" />
+          <h3 class="title">Forgot Password ?</h3>
+          <p class="tittle-des">
+            Enter The Email Associated with your account.
+          </p>
         </div>
-        <!-- Form Input -->
-        <div class="form">
-          <form action="" class="forgot">
-            <!-- Input Group -->
-            <div class="input-group">
-              <label for="forpassword">Password</label>
-              <div class="input">
-                <input
-                  type="password"
-                  name="forpassword"
-                  id=""
-                  placeholder="At least 8 characters"
-                />
-                <img src="assets/SVG/eyeshow.svg" alt="" class="showpwd" />
-              </div>
-            </div>
 
-            <div class="input-group">
-              <label for="forconpassword">Confirm Password</label>
-              <div class="input">
-                <input
-                  type="password"
-                  name="forconpassword"
-                  id=""
-                  placeholder="At least 8 characters"
-                />
-                <img src="assets/SVG/eyehide.svg" alt="" class="showpwd" />
-              </div>
-            </div>
-          </form>
-        </div>
-        <!-- Reset Button -->
-        <button class="reset">Reset Password</button>
-
-        <!-- Success -->
-
-        <div class="success">
-          <div class="container">
-            <div class="modal">
-              <img src="assets/SVG/success.svg" alt="" class="susvg" />
-              <p class="text1">Password Reset successful</p>
-              <p class="text2">
-                Congratulations on your successful Password Reset
-              </p>
-              <a href="#" class="action-btn"
-                >Sign In <span class="light"></span
-              ></a>
-            </div>
-          </div>
-        </div>
+        <form action="">
+          <input
+            type="text"
+            class="forgot-email"
+            placeholder="Enter Your Email"
+          />
+          <input type="submit" value="Get Code" class="get-code" />
+        </form>
       </div>
     </div>
   </body>
